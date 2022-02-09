@@ -1,8 +1,8 @@
 #pragma warning(disable:4996)
 #include <bits/stdc++.h>
 using namespace std;
-int a[1000000]; //ÀÚ¿¬¼ö¸¦ ´ã´Â ¹è¿­
-int occur[2000000]; //ÀÚ¿¬¼ö°¡ ³ª¿Â È½¼ö¸¦ ´ã´Â ¹è¿­
+int a[1000000]; //ìì—°ìˆ˜ë¥¼ ë‹´ëŠ” ë°°ì—´
+int occur[2000000]; //ìì—°ìˆ˜ê°€ ë‚˜ì˜¨ íšŸìˆ˜ë¥¼ ë‹´ëŠ” ë°°ì—´
 int main() {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
