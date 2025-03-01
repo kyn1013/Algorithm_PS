@@ -4,9 +4,11 @@ def solution(nums):
     num = list(itertools.combinations(nums, 3))
     for i in num:
         isPrime = 0
-        for j in range(2, sum(i)):
-            if sum(i) % j == 0:
+        k = sum(i)
+        for j in range(2, k):
+            if k % j == 0:
                 isPrime = 1
+                break
         if isPrime == 0:
             answer = answer + 1
     return answer
